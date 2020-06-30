@@ -1,9 +1,9 @@
 // Make a div
-
+const div = document.createElement('div');
 // add a class of wrapper to it
-
+div.classList.add(`wrapper`)
 // put it into the body
-
+document.body.appendChild(div);
 // make an unordered list
 
 // add three list items with the words "one, two three" in them
